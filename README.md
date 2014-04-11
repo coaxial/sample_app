@@ -6,7 +6,7 @@ This sample application is also live on [Heroku](http://heroku.com/) at http://s
 
 It requires PostgreSQL and needs a functioning local Postgres install. See [how to install Postgres locally](https://devcenter.heroku.com/articles/heroku-postgresql#local-setup).
 
-Once Postgres is setup, you will need to connect to the local server with `psql -h localhost` and then create the database with `CREATE DATABASE sample_app_development` at the psql prompt.
+Once Postgres is setup, you will need to connect to the local server with `psql -h localhost` and then create the database with `CREATE DATABASE sample_app_development;` and `CREATE DATABASE sample_app_test;` at the psql prompt.
 
 Launch the `rails server` and you're good to go. 
 
